@@ -1,0 +1,15 @@
+import random
+secret = random.randint(1 , 100)
+print(" J'ai choisi un nombre entre 1 et 100 , devnine le nb .")
+
+while True : 
+
+ R = float ( input ( " Votre Choix : ")) 
+
+ if R == secret  : 
+   print( " Bravo ! ")
+   break 
+ elif  R < secret  : 
+    print ( " trop petit !")
+ elif  R   > secret  : 
+    print ( " Trop grand ")
